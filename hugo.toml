@@ -2,3 +2,7 @@ baseURL = 'https://henry100115-max.github.io/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = 'ananke'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
